@@ -12,14 +12,14 @@ public class Example2 {
 	
 	public static long repeatString(String s, long n){
 		
-		String t = ""; //¹İº¹¹®ÀÚ¿­ ´ãÀ» ¹®ÀÚ¿­
-		int c=0; //¹®ÀÚ¿­ÀÌ ³¡³µÀ½À» ¾Ë·ÁÁÖ´Â °ª
-		long count=0; //Ã¹¹øÂ° ¹®ÀÚÀÇ ¼ö
+		String t = ""; //ë°˜ë³µë¬¸ìì—´ ë‹´ì„ ë¬¸ìì—´
+		int c=0; //ë¬¸ìì—´ì´ ëë‚¬ìŒì„ ì•Œë ¤ì£¼ëŠ” ê°’
+		long count=0; //ì²«ë²ˆì§¸ ë¬¸ìì˜ ìˆ˜
 		
 		Scanner key = new Scanner(System.in);
 		
 		for(;;){
-			System.out.print("¹®ÀÚ¿­ ÀÔ·Â : ");
+			System.out.print("ë¬¸ìì—´ ì…ë ¥ : ");
 			s = key.next();
 			if(s.length()<1 && s.length()>100)
 				continue;
@@ -27,7 +27,7 @@ public class Example2 {
 		}
 		
 		for(;;){
-			System.out.print("¹®ÀÚ¿­ ¹İº¹ ¹üÀ§ ÁöÁ¤ : ");
+			System.out.print("ë¬¸ìì—´ ë°˜ë³µ ë²”ìœ„ ì§€ì • : ");
 			n = key.nextLong();
 			if(n<1 && n>1000000000)
 				continue;
