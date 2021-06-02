@@ -12,15 +12,15 @@ public class Example1 {
 	public static int countingOnClouds(int c[]){
 		
 		Scanner key = new Scanner(System.in);
-		int n; // ¹è¿­ ±æÀÌ
+		int n; // ë°°ì—´ ê¸¸ì´
 		int count=0;
 		
-		System.out.print("¹è¿­ ±æÀÌ ÀÔ·Â : ");
+		System.out.print("ë°°ì—´ ê¸¸ì´ ì…ë ¥ : ");
 		n = key.nextInt();
 		
 		for(;;){
 			if(n<=2 || n>=100){
-				System.out.print("´Ù½Ã  ÀÔ·Â : ");
+				System.out.print("ë‹¤ì‹œ  ì…ë ¥ : ");
 				n = key.nextInt();
 				continue;
 			}
@@ -30,14 +30,14 @@ public class Example1 {
 		
 		c = new int[n];
 		for(int i=0;i<n;i++){
-			c[i] = (int)Math.floor(Math.random() * 2); // 0,1 ·£´ıÀ¸·Î °ÔÀÓ »ı¼º
-			c[0] = 0; //Ã¹¹øÂ° ±¸¸§ 0
-			c[n-1] = 0; // ¸¶Áö¸· ±¸¸§ 0
+			c[i] = (int)Math.floor(Math.random() * 2); // 0,1 ëœë¤ìœ¼ë¡œ ê²Œì„ ìƒì„±
+			c[0] = 0; //ì²«ë²ˆì§¸ êµ¬ë¦„ 0
+			c[n-1] = 0; // ë§ˆì§€ë§‰ êµ¬ë¦„ 0
 			if(i > 0 && c[i-1] ==1 && c[i] == 1)
 				c[i] = 0;
 		}
 		
-		System.out.print("»ı¼ºµÈ ±¸¸§ °ÔÀÓ : " + Arrays.toString(c));
+		System.out.print("ìƒì„±ëœ êµ¬ë¦„ ê²Œì„ : " + Arrays.toString(c));
 		
 		for(int jump=0; jump<c.length-1;jump++,count++){
 			if(jump<c.length-2 && c[jump+2]==0){
@@ -45,7 +45,7 @@ public class Example1 {
 			}
 		}
 
-		System.out.print("\nÃÖ¼Ò Á¡ÇÁ ¼ö : ");
+		System.out.print("\nìµœì†Œ ì í”„ ìˆ˜ : ");
 		
 		return count;
 	}
