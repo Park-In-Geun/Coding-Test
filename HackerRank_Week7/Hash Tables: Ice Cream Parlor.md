@@ -1,3 +1,5 @@
+<a> 문제 : https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=search (Difficulty : Medium) </a>
+
 ```java
 import java.io.*;
 import java.math.*;
