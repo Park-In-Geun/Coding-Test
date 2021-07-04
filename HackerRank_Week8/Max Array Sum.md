@@ -62,3 +62,7 @@ public class Solution {
 
 
 ```
+
+
+<a> Dinamic Programing </a>
+<a> Kadane Algorithm </a>
