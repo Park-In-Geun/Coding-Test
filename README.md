@@ -29,3 +29,6 @@ Hackerrank - Practice - Interview Preparation Kit Problems
 
 <a> (Pairs), (Hash Tables: Ice Cream Parlor) </a>
 
+## Week_8
+
+<a> (Max Array Sum), (Candies) </a>
