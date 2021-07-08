@@ -1,4 +1,4 @@
-<a> 문제 :  (medium, 두 개의 스택으로 큐를 구현하는 문제) </a>
+<a> 문제 : https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=stacks-queues (medium, 두 개의 스택으로 큐를 구현하는 문제) </a>
 
 ```java
 
