@@ -32,3 +32,7 @@ Hackerrank - Practice - Interview Preparation Kit Problems
 ## Week_8
 
 <a> (Max Array Sum), (Candies) </a>
+
+## Week_9
+
+<a> (Balanced Brackets), (Queues: A Tale of Two Stacks) </a>
